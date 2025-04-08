@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Dice Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-box" id="chatBox">
+        <p><strong>🧙 DM:</strong> Welcome to your adventure! What will you do?</p>
+    </div>
+    <div class="input-group">
+        <input type="text" id="userInput" placeholder="Type your action..." />
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="rollDice()">🎲 Roll d20</button>
+    </div>
+</div>
+
+<script src="dndScript.js"></script>
+
+</body>
+</html>
